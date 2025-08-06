@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "fontello";
+  src: url(../src/assets/font/fontello.woff2) format("woff2");
+}
+.thao123::before {
+  font-family: "fontello";
+  content: "\EA14";
+}
+
+.slick-initialized .slick-slide {
+  width: fit-content !important;
+}
+.slick-slide {
+  padding: 0 6px !important;
+}
+
+body {
+  background-color: #181818;
+}
+
+.slick-center {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.services-section {
+  background-image: url("https://gym-store.axiomthemes.com/wp-content/uploads/2023/10/bg-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: static;
+  margin-top: 2em;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 8px;
+  background: transparent;
+  border-color: #e5e3e0;
+}
+
+.swiper-pagination-bullet-active {
+  border-color: #ec2a3a;
+  background: #ec2a3a;
+}
+
+princing {
+  background-image: url("https://gym-store.axiomthemes.com/wp-content/uploads/2023/10/bg-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-h2 {
+  margin-bottom: 90px;
+}
+
+.footer-h3 {
+  font-size: 38px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  color: #f8f8f8 !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.footer-relative {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  color: #f8f8f8 !important;
+  font-family: "DM Sans", sans-serif !important;
+}
